@@ -366,6 +366,118 @@ footer p {
 	margin-top: 50px;
 }
 
+/*===MEDIA QUERIES===*/
 
+@media (max-width: 1075px) {
+	#rework,
+	#offerings, {
+		margin: 0 auto;
+		padding-right: 5px;
+		width: 50%;
+	}
+
+	#offerings h1,{
+		font-size: 80%;
+	}
+
+	div.column,
+	div.column {
+		width: 80%;
+	}
+
+	div.crumple {
+		max-width: 90%;
+	}
+}
+
+@media (max-width: 834px) {
+	#customers, a > img,
+	#manifesto {
+		width: 90%;
+	}
+
+}
+
+@media (max-width: 817px) {
+	header {
+		width: 80%;
+	}
+
+	#products div {
+		padding-right: 0; 
+	}
+}
+
+@media (max-width: 800px) {
+	div#products div {
+		padding: 0 2px;
+	}
+		div#products {
+		margin: 0;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 786px) {
+	#offerings,
+	div.column,
+	div.column-end {
+		width: 50%;
+	}
+}
+
+@media (max-width: 774px) {
+	#products div img {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+@media (max-width: 657px) {
+	#products h3,
+	#products p,{
+		width: 100%;
+		height: 100%;
+	}
+
+	#products h3,
+	#products sup {
+		font-size: .70em;
+	}
+
+}
+
+@media (max-width: 574px) {
+	nav {
+		text-align: left;
+	}
+
+	nav ul {
+		margin-right: 0;
+		margin-left: 0;
+	}
+}
+
+@media (max-width: 537px) {
+	nav ul {
+		padding-right: 0;
+		padding-left: 0;
+		float: left;
+	}
+}
+
+@media (max-width: 505px) {
+	#products div {
+		margin: 0;
+		margin: 0 0 0 20px;
+	}
+}
+
+@media (max-width: 478px) {
+	nav li {
+		margin: 0;
+		font-size: 10px;
+	}
+}
 
 
